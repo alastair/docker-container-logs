@@ -23,7 +23,7 @@ processors:
     timeout: 10s
 exporters:
   otlp:
-    endpoint: ${env:OTEL_COLLECOTR_ENDPOINT}
+    endpoint: ${env:OTEL_COLLECTOR_ENDPOINT}
     tls:
       insecure: false
     headers:
